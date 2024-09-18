@@ -1,8 +1,8 @@
-x = 10
-y = 5
-z = x + y
+number1 = 10
+number2 = 5
+z = number1 + number2
 print (z)
-z = x - y
+z = number1 - number2
 print (z)
-z = x * y
+z = number1 * number2
 print (z)
