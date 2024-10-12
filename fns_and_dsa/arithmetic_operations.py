@@ -1,15 +1,14 @@
-
 def perform_operation(num1,num2,operation):
-    if operation=='add':
+    if operation=="add":
         return num1+num2
-    elif operation=='subtract':
+    elif operation=="subtract":
         return num1-num2
-    elif operation=='multiply':
+    elif operation=="multiply":
         return num1*num2
-    elif operation=='divide':
+    elif operation=="divide":
         if num2==0:
-            return 'Caution! cannot divide by zero.'
+            return "Cannot divide by zero!"
         else:
             return num1/num2
     else:
-        return 'Invalid operation'
+        return "Invalide operation inputted"
