@@ -7,7 +7,7 @@ class Book:
         print(f"Deleting {self.title}")
 
     def __str__(self):
-        print("{title} by {author}, published in {year}")
+        return f"{self.title} by {self.author}, published in {self.year}"
+    
     def __repr__(self):
-        print(f"Book'{self.title}', '{self.author}', {self.year}")
-        
+        return f"Book('{self.title}', '{self.author}', {self.year})"
