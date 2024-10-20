@@ -12,7 +12,7 @@ class Circle(Shape):
     def __init__(self,radius):
         super().__init__(self)
         self.radius = radius
-        area = (math.pi)*radius*radius
+        area = (math.pi)*radius**2
 
         for area in Shape:
             if isinstance(self.length,self.width):
